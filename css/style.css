@@ -50,6 +50,9 @@ html{
     color: #FFD700 ;
 }
 
+p{
+    text-align: justify;
+}
 
 /* MEDIA QUERY */
 @media (max-width: 700px){
