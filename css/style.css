@@ -1,0 +1,64 @@
+/* 
+PALETA DE CORES:
+Preto (#000000): Para textos ou fundo de destaque.
+Dourado (#FFD700): Para títulos, ícones ou detalhes.
+Vermelho (#D32F2F): Para seções específicas ou botões.
+Verde (#388E3C): Para seções específicas ou botões.
+Bege Claro (#F5F5DC): Para o fundo principal, criando contraste.
+*/
+
+/* IMPORTAÇÃO DE FONTE */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Oswald:wght@200..700&display=swap');
+
+/* GERAL */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+html{
+    background-color: #F5F5DC;
+}
+
+
+/* NAVBAR */
+.menu_port{
+    display: none;
+}
+.menu_int{
+    display: block;
+}
+
+.navbar{
+    background: linear-gradient(to right, #302626, #000000);
+    padding: 1%;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-item .nav-link{
+    color: white;
+}
+.nav-item .nav-link:hover{
+    color: #FFD700;
+}
+
+.nome_nav{
+    font-family: "Monoton", sans-serif;
+    color: #FFD700 ;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 700px){
+    .menu_port{
+        display: block;
+        background: linear-gradient(to right, #302626, #000000);
+
+    }
+    .menu_int{
+        display: none
+    }
+}
