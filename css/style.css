@@ -17,6 +17,9 @@ Bege Claro (#F5F5DC): Para o fundo principal, criando contraste.
 html{
     background-color: #F5F5DC;
 }
+p{
+    text-align: justify;
+}
 
 
 /* NAVBAR */
@@ -53,9 +56,25 @@ html{
     color: #FFD700;
 }
 
-p{
-    text-align: justify;
+/* IMAGENS DO SOBRE */
+
+#fotos{
+display: flex;
+flex-wrap: wrap;
 }
+
+#fotos div{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+#fotos p{
+text-align: center;
+padding-top: 0.5dvh;
+}
+
 /* MEDIA QUERY */
 @media (max-width: 700px){
     .menu_port{
